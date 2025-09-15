@@ -1,12 +1,70 @@
-# React + Vite
+# 🎥 MovieFlix Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+The **MovieFlix Frontend** is built with **React (Vite)** and provides a modern dashboard for visualizing movie data.  
+It uses **Material-UI** for UI components, **Recharts** for charts, and **Axios** for API integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
+- React 18 + Vite
+- Material UI (MUI)
+- Recharts (Pie, Line, Bar charts)
+- Axios
+- React Router DOM
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+movieflix-frontend/
+│── src/
+
+│ ├── components/ # Reusable UI components
+
+│ ├── pages/ # Page-level components
+
+│ ├── services/ # Axios API calls
+
+│ ├── assets/ # Images & static files
+
+│ ├── App.jsx
+
+│ └── main.jsx
+
+│
+
+│── public/
+
+│── vite.config.js
+
+│── package.json
+
+
+
+---
+
+## 🔑 Features
+- ✅ Interactive dashboard with Pie, Line, and Bar charts  
+- ✅ Color-coded chart labels  
+- ✅ Gap between labels and pie charts  
+- ✅ Responsive UI with Material-UI  
+- ✅ Integrated with backend APIs  
+
+---
+
+## 🛠️ Setup & Installation
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Steps
+```bash
+# Clone repo
+git clone https://github.com/your-username/movieflix-frontend.git
+cd movieflix-frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
