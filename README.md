@@ -4,6 +4,8 @@
 The **MovieFlix Frontend** is built with **React (Vite)** and provides a modern dashboard for visualizing movie data.  
 It uses **Material-UI** for UI components, **Recharts** for charts, and **Axios** for API integration.
 
+Live URL - https://app.kushagragarg.in
+
 ---
 
 ## ⚙️ Tech Stack
